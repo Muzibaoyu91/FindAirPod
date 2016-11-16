@@ -1,0 +1,11 @@
+link_with 'FindAirPod'
+platform:ios,'9.0'
+pod 'MBProgressHUD', '~> 0.9.2'
+pod 'UMengAnalytics-NO-IDFA'
+pod 'JSONModel', '~> 1.2.0'
+pod 'AFNetworking', '~> 3.1.0'
+pod 'MMDrawerController', '~> 0.6.0'
+pod 'pop', '~> 1.0.9'
+pod 'TTTAttributedLabel', '~> 2.0.0'
+pod 'NJKWebViewProgress'
+

@@ -7,8 +7,18 @@
 //
 
 #import "AppDelegate.h"
+#import "UMMobClick/MobClick.h"
+#import "HomeViewController.h"
+#import "MapMainViewController.h"
+#import "MMDrawerController.h"
+#import "LeftViewController.h"
+#import "NewHomeViewController.h"
+
 
 @interface AppDelegate ()
+
+@property(nonatomic,strong) MMDrawerController * drawerController;
+
 
 @end
 
@@ -16,30 +26,62 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //UMeng
+    UMConfigInstance.appKey = UMengKey;
+    UMConfigInstance.channelId = @"App Store";
+    NSString *version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    [MobClick setAppVersion:version];
+    [MobClick startWithConfigure:UMConfigInstance];//配置以上参数后调用此方法初始化SDK！
+
+    //设置根视图
+    [self setRootViewController];
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+- (void)setRootViewController{
+    
+    //  判断是否有发布信息
+    UIViewController *VC = [[UIViewController alloc] init];
+    
+    if ([VC checkHasLogin]) {
+        //  有发布信息
+        [self showMapVC];
+    }else{
+        //  没有发布信息
+        [self showHomeVC];
+    }
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+#pragma mark - public
+- (void)showMapVC{
+    //  主地图界面
+    MapMainViewController *mapVC = [[MapMainViewController alloc] init];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:mapVC];
+    navVC.navigationBar.translucent = NO;
+    
+    //  左侧栏
+    LeftViewController *leftVC = [[LeftViewController alloc] init];
+    
+    self.drawerController = [[MMDrawerController alloc] initWithCenterViewController:navVC leftDrawerViewController:leftVC];
+    
+    //  设置打开/关闭抽屉的手势
+    self.drawerController.openDrawerGestureModeMask = MMOpenDrawerGestureModeAll;
+    self.drawerController.closeDrawerGestureModeMask =MMCloseDrawerGestureModeAll;
+    
+    //  左侧最大距离
+    self.drawerController.maximumLeftDrawerWidth = maxLeftWidth;
+    
+    self.window.rootViewController = self.drawerController;
 }
 
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+- (void)showHomeVC{
+    NewHomeViewController *homeVC = [[NewHomeViewController alloc] init];
+    UINavigationController *navVC = [[UINavigationController alloc] initWithRootViewController:homeVC];
+    navVC.navigationBar.translucent = NO;
+    self.window.rootViewController = navVC;
 }
 
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-}
 
-- (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
 
 @end

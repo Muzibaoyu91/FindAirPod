@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A036BB5699710361086F00E7962D1F987DB73FF9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "934E6E450F1A706007137F98D854D2B32FF0387A" : 9223372036854775807,
+    "A036BB5699710361086F00E7962D1F987DB73FF9" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7E225737-7D20-44D0-AD08-29AF7E2B686E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "934E6E450F1A706007137F98D854D2B32FF0387A" : "",
+    "A036BB5699710361086F00E7962D1F987DB73FF9" : "FindAirPod\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FindAirPod",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FindAirPod.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Muzibaoyu91\/FindAirPod.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "934E6E450F1A706007137F98D854D2B32FF0387A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Muzibaoyu91\/-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A036BB5699710361086F00E7962D1F987DB73FF9"
+    }
+  ]
+}

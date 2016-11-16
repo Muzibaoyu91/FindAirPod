@@ -1,0 +1,19 @@
+//
+//  Third.pch
+//  FindAirPod
+//
+//  Created by Baoyu on 16/9/9.
+//  Copyright © 2016年 Baoy. All rights reserved.
+//
+
+#ifndef Third_pch
+#define Third_pch
+
+
+#define UMengKey    @"57d235bd67e58e9cf2002c23"
+
+
+
+
+
+#endif /* Third_pch */

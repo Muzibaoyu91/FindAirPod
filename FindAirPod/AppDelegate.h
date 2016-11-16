@@ -12,6 +12,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (void)showMapVC;
+
+- (void)showHomeVC;
 
 @end
 

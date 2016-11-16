@@ -1,0 +1,19 @@
+//
+//  NetInterface.pch
+//  FindAirPod
+//
+//  Created by Baoyu on 16/9/9.
+//  Copyright © 2016年 Baoy. All rights reserved.
+//
+
+#ifndef NetInterface_pch
+#define NetInterface_pch
+
+//  正式服务器
+#define kAppSeverHome_API @"http://airmap-test.instask.me/"
+
+//  apiV
+#define kVersion_API @"api/v1/"
+
+
+#endif /* NetInterface_pch */

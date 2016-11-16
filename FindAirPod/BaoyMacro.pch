@@ -1,0 +1,101 @@
+//
+//  BaoyMacro.pch
+//  Baoy
+//
+//  Created by Baoyu on 16/9/7.
+//  Copyright © 2016年 Baoy. All rights reserved.
+//
+
+#ifndef BaoyMacro_pch
+#define BaoyMacro_pch
+
+
+//  版本号
+#define kAppVersion [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+
+/** 一些尺寸 */
+//  屏幕的宽高
+#define kScreenW                [UIScreen mainScreen].bounds.size.width
+#define kScreenH                [UIScreen mainScreen].bounds.size.height
+
+/** 颜色 */
+//  颜色
+#define RGB(A, B, C)            [UIColor colorWithRed:A/256.0 green:B/256.0 blue:C/256.0 alpha:1.0]
+
+/** 主色调 */
+#define color_mainColor         RGB(78,149,255)
+
+/** 男生蓝 */
+#define color_maleBlue          RGB(0,161,254)
+
+/** 女生粉红 */
+#define color_femalePink        RGB(255,86,222)
+
+/** 底层背景灰 */
+#define color_RockBgGray        RGB(238,238,238)
+
+/** 引用背景灰 */
+#define color_QuoteBgGray       RGB(222,222,222)
+
+/** 文字灰 */
+#define color_TestGray          RGB(122,122,122)
+
+/** 导航黑 */
+#define color_NavBlack          RGB(54,54,54)
+
+/** 深黑 */
+#define color_TestBlack         RGB(42,42,42)
+
+/** 通用禁用白 */
+#define color_DisableWhite      RGB(239,243,248)
+
+/** 不能编辑白 */
+#define color_UneditWhite       RGB(252,250,242)
+
+/** 主标签深蓝 */
+#define color_PrimaryBlue       RGB(0,109,204)
+
+/** 副标签浅蓝 */
+#define color_InfoBlue          RGB(73,175,205)
+
+/** 警告黄 */
+#define color_WarningYellow     RGB(250,167,50)
+
+/** 成功绿 */
+#define color_SuccessGreen      RGB(91,183,91)
+
+/** 危险红 */
+#define color_DangerRed         RGB(218,79,73)
+
+/** 链接栏 */
+#define color_LinkBlue          RGB(0,136,204)
+
+/** 一些判断 */
+//  屏幕的尺寸判断
+#define kIsScreen3_5 ([[UIScreen mainScreen] bounds].size.height == 480.0 && [[UIScreen mainScreen] bounds].size.width == 320.0)
+
+#define kIsScreen4 ([[UIScreen mainScreen] bounds].size.height == 568.0 && [[UIScreen mainScreen] bounds].size.width == 320.0)
+
+#define kIsScreen4_7 ([[UIScreen mainScreen] bounds].size.height == 667.0 && [[UIScreen mainScreen] bounds].size.width == 375.0)
+
+#define kIsScreen5_5 ([[UIScreen mainScreen] bounds].size.height == 736.0 && [[UIScreen mainScreen] bounds].size.width == 414.0)
+
+//  尺寸计算
+#define kScaleLenght(lenght)  lenght*kScreenW/375.f
+
+/** DEBUG */
+#ifdef DEBUG
+#    define kDebugLog(...)   NSLog(__VA_ARGS__)
+#    define kDebugMethod(...)   NSLog(@"%s", __func__) // 打印当前所在function
+#else
+#    define kDebugLog(...)
+#    define kDebugMethod(...)
+#endif
+
+
+#define WS(weakSelf)  __weak __typeof(&*self) weakSelf = self; //: __weak 指定一个弱引用指针,  __typeof(&*self) self的类型,  weakSelf 变量名,  = self 赋值
+
+
+
+#endif /* BaoyMacro_pch */

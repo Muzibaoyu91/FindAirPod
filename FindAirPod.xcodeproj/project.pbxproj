@@ -7,25 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		626D6372162A7CB6DAA1A4C3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A25A6DD73F4E3ED4F8BA3E /* libPods.a */; };
+		740306431D9BB4E900594FB7 /* FillZeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740306421D9BB4E900594FB7 /* FillZeroViewController.m */; };
+		7403064D1D9CE6AC00594FB7 /* UIViewController+HUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7403064C1D9CE6AC00594FB7 /* UIViewController+HUDManager.m */; };
+		7452C3921D950381001970F3 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7452C3911D950381001970F3 /* LeftViewController.m */; };
+		7452C3951D98CCCF001970F3 /* NewHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7452C3941D98CCCF001970F3 /* NewHomeViewController.m */; };
+		7452C3981D9A495F001970F3 /* FillThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7452C3971D9A495F001970F3 /* FillThirdViewController.m */; };
+		7452C39B1D9A49C8001970F3 /* FillForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7452C39A1D9A49C8001970F3 /* FillForthViewController.m */; };
+		748473621D9116CB00F5CD6C /* BaoyNSURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 748473611D9116CB00F5CD6C /* BaoyNSURLRequest.m */; };
+		748473651D94D98200F5CD6C /* UIViewController+FindAirPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 748473641D94D98200F5CD6C /* UIViewController+FindAirPod.m */; };
+		748473681D94DBEB00F5CD6C /* UIViewController+Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 748473671D94DBEB00F5CD6C /* UIViewController+Login.m */; };
 		748702DC1D8263EC00AC5524 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 748702DB1D8263EC00AC5524 /* main.m */; };
 		748702DF1D8263EC00AC5524 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 748702DE1D8263EC00AC5524 /* AppDelegate.m */; };
-		748702E21D8263EC00AC5524 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748702E11D8263EC00AC5524 /* ViewController.m */; };
 		748702E51D8263EC00AC5524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748702E31D8263EC00AC5524 /* Main.storyboard */; };
 		748702E71D8263EC00AC5524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748702E61D8263EC00AC5524 /* Assets.xcassets */; };
 		748702EA1D8263EC00AC5524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748702E81D8263EC00AC5524 /* LaunchScreen.storyboard */; };
+		748702FC1D826FEF00AC5524 /* RootMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748702FB1D826FEF00AC5524 /* RootMainViewController.m */; };
+		748703001D82727C00AC5524 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748702FF1D82727C00AC5524 /* HomeViewController.m */; };
+		748703031D82A06800AC5524 /* MapMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748703021D82A06800AC5524 /* MapMainViewController.m */; };
+		748703061D82A4EA00AC5524 /* BaoyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 748703051D82A4EA00AC5524 /* BaoyAnnotation.m */; };
+		748703091D82AF6800AC5524 /* mainMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 748703081D82AF6800AC5524 /* mainMsgView.m */; };
+		7487030C1D82B11E00AC5524 /* MainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7487030B1D82B11E00AC5524 /* MainModel.m */; };
+		7487030F1D86A02F00AC5524 /* FilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7487030E1D86A02F00AC5524 /* FilterView.m */; };
+		748703131D87E08A00AC5524 /* FillFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748703121D87E08A00AC5524 /* FillFirstViewController.m */; };
+		748703161D87E8DD00AC5524 /* FillSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 748703151D87E8DD00AC5524 /* FillSecondViewController.m */; };
+		748703191D87E95700AC5524 /* NSString+Instask.m in Sources */ = {isa = PBXBuildFile; fileRef = 748703181D87E95700AC5524 /* NSString+Instask.m */; };
+		7487031C1D87EE7A00AC5524 /* UIImage+instask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7487031B1D87EE7A00AC5524 /* UIImage+instask.m */; };
+		74DA35CD1D9E6DB6001FFDC3 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DA35CC1D9E6DB6001FFDC3 /* EditViewController.m */; };
+		74DA35D01D9F6B51001FFDC3 /* EditInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DA35CF1D9F6B51001FFDC3 /* EditInfoViewController.m */; };
+		74FAC1E31DA672C100D5B7DF /* HTCopyableLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FAC1E21DA672C100D5B7DF /* HTCopyableLabel.m */; };
+		74FAC1E61DA6841500D5B7DF /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FAC1E51DA6841500D5B7DF /* AboutUsViewController.m */; };
+		74FAC1E91DA6872200D5B7DF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FAC1E81DA6872200D5B7DF /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151CF18EFE1275B95C54B58F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		740306411D9BB4E900594FB7 /* FillZeroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillZeroViewController.h; sourceTree = "<group>"; };
+		740306421D9BB4E900594FB7 /* FillZeroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillZeroViewController.m; sourceTree = "<group>"; };
+		7403064B1D9CE6AC00594FB7 /* UIViewController+HUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUDManager.h"; sourceTree = "<group>"; };
+		7403064C1D9CE6AC00594FB7 /* UIViewController+HUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUDManager.m"; sourceTree = "<group>"; };
+		7452C3901D950381001970F3 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		7452C3911D950381001970F3 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		7452C3931D98CCCF001970F3 /* NewHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewHomeViewController.h; sourceTree = "<group>"; };
+		7452C3941D98CCCF001970F3 /* NewHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewHomeViewController.m; sourceTree = "<group>"; };
+		7452C3961D9A495F001970F3 /* FillThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillThirdViewController.h; sourceTree = "<group>"; };
+		7452C3971D9A495F001970F3 /* FillThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillThirdViewController.m; sourceTree = "<group>"; };
+		7452C3991D9A49C8001970F3 /* FillForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillForthViewController.h; sourceTree = "<group>"; };
+		7452C39A1D9A49C8001970F3 /* FillForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillForthViewController.m; sourceTree = "<group>"; };
+		748473601D9116CB00F5CD6C /* BaoyNSURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaoyNSURLRequest.h; path = Models/BaoyNSURLRequest.h; sourceTree = "<group>"; };
+		748473611D9116CB00F5CD6C /* BaoyNSURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaoyNSURLRequest.m; path = Models/BaoyNSURLRequest.m; sourceTree = "<group>"; };
+		748473631D94D98200F5CD6C /* UIViewController+FindAirPod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FindAirPod.h"; sourceTree = "<group>"; };
+		748473641D94D98200F5CD6C /* UIViewController+FindAirPod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FindAirPod.m"; sourceTree = "<group>"; };
+		748473661D94DBEB00F5CD6C /* UIViewController+Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Login.h"; sourceTree = "<group>"; };
+		748473671D94DBEB00F5CD6C /* UIViewController+Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Login.m"; sourceTree = "<group>"; };
 		748702D71D8263EC00AC5524 /* FindAirPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindAirPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748702DB1D8263EC00AC5524 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		748702DD1D8263EC00AC5524 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		748702DE1D8263EC00AC5524 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		748702E01D8263EC00AC5524 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		748702E11D8263EC00AC5524 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		748702E41D8263EC00AC5524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		748702E61D8263EC00AC5524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748702E91D8263EC00AC5524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748702EB1D8263EC00AC5524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		748702F21D82658000AC5524 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		748702F31D8269A400AC5524 /* BaoyMacro.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoyMacro.pch; sourceTree = "<group>"; };
+		748702F81D826D9500AC5524 /* NetInterface.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetInterface.pch; sourceTree = "<group>"; };
+		748702F91D826DA000AC5524 /* Third.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Third.pch; sourceTree = "<group>"; };
+		748702FA1D826FEF00AC5524 /* RootMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootMainViewController.h; sourceTree = "<group>"; };
+		748702FB1D826FEF00AC5524 /* RootMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootMainViewController.m; sourceTree = "<group>"; };
+		748702FE1D82727C00AC5524 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		748702FF1D82727C00AC5524 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		748703011D82A06800AC5524 /* MapMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapMainViewController.h; sourceTree = "<group>"; };
+		748703021D82A06800AC5524 /* MapMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMainViewController.m; sourceTree = "<group>"; };
+		748703041D82A4EA00AC5524 /* BaoyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaoyAnnotation.h; sourceTree = "<group>"; };
+		748703051D82A4EA00AC5524 /* BaoyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaoyAnnotation.m; sourceTree = "<group>"; };
+		748703071D82AF6800AC5524 /* mainMsgView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainMsgView.h; sourceTree = "<group>"; };
+		748703081D82AF6800AC5524 /* mainMsgView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainMsgView.m; sourceTree = "<group>"; };
+		7487030A1D82B11E00AC5524 /* MainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainModel.h; sourceTree = "<group>"; };
+		7487030B1D82B11E00AC5524 /* MainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainModel.m; sourceTree = "<group>"; };
+		7487030D1D86A02F00AC5524 /* FilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterView.h; sourceTree = "<group>"; };
+		7487030E1D86A02F00AC5524 /* FilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterView.m; sourceTree = "<group>"; };
+		748703111D87E08A00AC5524 /* FillFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillFirstViewController.h; sourceTree = "<group>"; };
+		748703121D87E08A00AC5524 /* FillFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillFirstViewController.m; sourceTree = "<group>"; };
+		748703141D87E8DD00AC5524 /* FillSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FillSecondViewController.h; sourceTree = "<group>"; };
+		748703151D87E8DD00AC5524 /* FillSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FillSecondViewController.m; sourceTree = "<group>"; };
+		748703171D87E95700AC5524 /* NSString+Instask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Instask.h"; sourceTree = "<group>"; };
+		748703181D87E95700AC5524 /* NSString+Instask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Instask.m"; sourceTree = "<group>"; };
+		7487031A1D87EE7A00AC5524 /* UIImage+instask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+instask.h"; sourceTree = "<group>"; };
+		7487031B1D87EE7A00AC5524 /* UIImage+instask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+instask.m"; sourceTree = "<group>"; };
+		74DA35CB1D9E6DB6001FFDC3 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		74DA35CC1D9E6DB6001FFDC3 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		74DA35CE1D9F6B51001FFDC3 /* EditInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditInfoViewController.h; sourceTree = "<group>"; };
+		74DA35CF1D9F6B51001FFDC3 /* EditInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditInfoViewController.m; sourceTree = "<group>"; };
+		74FAC1E11DA672C100D5B7DF /* HTCopyableLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCopyableLabel.h; sourceTree = "<group>"; };
+		74FAC1E21DA672C100D5B7DF /* HTCopyableLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCopyableLabel.m; sourceTree = "<group>"; };
+		74FAC1E41DA6841500D5B7DF /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		74FAC1E51DA6841500D5B7DF /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		74FAC1E71DA6872200D5B7DF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		74FAC1E81DA6872200D5B7DF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		ACB6C05BFC9CC95E4F8F006F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D0A25A6DD73F4E3ED4F8BA3E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +113,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				626D6372162A7CB6DAA1A4C3 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		549D8689C261A603D454F7AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0A25A6DD73F4E3ED4F8BA3E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64680741F7F5654FBE0D8855 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				151CF18EFE1275B95C54B58F /* Pods.debug.xcconfig */,
+				ACB6C05BFC9CC95E4F8F006F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7403064E1D9E069600594FB7 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				74DA35CB1D9E6DB6001FFDC3 /* EditViewController.h */,
+				74DA35CC1D9E6DB6001FFDC3 /* EditViewController.m */,
+				74DA35CE1D9F6B51001FFDC3 /* EditInfoViewController.h */,
+				74DA35CF1D9F6B51001FFDC3 /* EditInfoViewController.m */,
+			);
+			name = Edit;
+			sourceTree = "<group>";
+		};
+		7452C38F1D95034D001970F3 /* MainMap */ = {
+			isa = PBXGroup;
+			children = (
+				748703011D82A06800AC5524 /* MapMainViewController.h */,
+				748703021D82A06800AC5524 /* MapMainViewController.m */,
+				7452C3901D950381001970F3 /* LeftViewController.h */,
+				7452C3911D950381001970F3 /* LeftViewController.m */,
+			);
+			name = MainMap;
+			sourceTree = "<group>";
+		};
 		748702CE1D8263EC00AC5524 = {
 			isa = PBXGroup;
 			children = (
 				748702D91D8263EC00AC5524 /* FindAirPod */,
 				748702D81D8263EC00AC5524 /* Products */,
+				64680741F7F5654FBE0D8855 /* Pods */,
+				549D8689C261A603D454F7AC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +180,18 @@
 		748702D91D8263EC00AC5524 /* FindAirPod */ = {
 			isa = PBXGroup;
 			children = (
+				748702F41D826A7200AC5524 /* Controllers */,
+				748702F51D826A7200AC5524 /* Models */,
+				748703041D82A4EA00AC5524 /* BaoyAnnotation.h */,
+				748703051D82A4EA00AC5524 /* BaoyAnnotation.m */,
+				748473601D9116CB00F5CD6C /* BaoyNSURLRequest.h */,
+				748473611D9116CB00F5CD6C /* BaoyNSURLRequest.m */,
+				7487030A1D82B11E00AC5524 /* MainModel.h */,
+				7487030B1D82B11E00AC5524 /* MainModel.m */,
+				748702F61D826A7200AC5524 /* Resources */,
+				748702F71D826A7200AC5524 /* Views */,
 				748702DD1D8263EC00AC5524 /* AppDelegate.h */,
 				748702DE1D8263EC00AC5524 /* AppDelegate.m */,
-				748702E01D8263EC00AC5524 /* ViewController.h */,
-				748702E11D8263EC00AC5524 /* ViewController.m */,
 				748702E31D8263EC00AC5524 /* Main.storyboard */,
 				748702E61D8263EC00AC5524 /* Assets.xcassets */,
 				748702E81D8263EC00AC5524 /* LaunchScreen.storyboard */,
@@ -75,8 +205,94 @@
 			isa = PBXGroup;
 			children = (
 				748702DB1D8263EC00AC5524 /* main.m */,
+				748702F21D82658000AC5524 /* PrefixHeader.pch */,
+				748702F81D826D9500AC5524 /* NetInterface.pch */,
+				748702F91D826DA000AC5524 /* Third.pch */,
+				748702F31D8269A400AC5524 /* BaoyMacro.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		748702F41D826A7200AC5524 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7403064E1D9E069600594FB7 /* Edit */,
+				7452C38F1D95034D001970F3 /* MainMap */,
+				748703101D87E01100AC5524 /* Fill */,
+				748702FD1D82700900AC5524 /* Root */,
+				748702FE1D82727C00AC5524 /* HomeViewController.h */,
+				748702FF1D82727C00AC5524 /* HomeViewController.m */,
+				7452C3931D98CCCF001970F3 /* NewHomeViewController.h */,
+				7452C3941D98CCCF001970F3 /* NewHomeViewController.m */,
+				74FAC1E41DA6841500D5B7DF /* AboutUsViewController.h */,
+				74FAC1E51DA6841500D5B7DF /* AboutUsViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		748702F51D826A7200AC5524 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		748702F61D826A7200AC5524 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				748703171D87E95700AC5524 /* NSString+Instask.h */,
+				748703181D87E95700AC5524 /* NSString+Instask.m */,
+				7487031A1D87EE7A00AC5524 /* UIImage+instask.h */,
+				748473661D94DBEB00F5CD6C /* UIViewController+Login.h */,
+				7487031B1D87EE7A00AC5524 /* UIImage+instask.m */,
+				748473671D94DBEB00F5CD6C /* UIViewController+Login.m */,
+				748473631D94D98200F5CD6C /* UIViewController+FindAirPod.h */,
+				748473641D94D98200F5CD6C /* UIViewController+FindAirPod.m */,
+				7403064B1D9CE6AC00594FB7 /* UIViewController+HUDManager.h */,
+				7403064C1D9CE6AC00594FB7 /* UIViewController+HUDManager.m */,
+				74FAC1E11DA672C100D5B7DF /* HTCopyableLabel.h */,
+				74FAC1E21DA672C100D5B7DF /* HTCopyableLabel.m */,
+				74FAC1E71DA6872200D5B7DF /* WebViewController.h */,
+				74FAC1E81DA6872200D5B7DF /* WebViewController.m */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		748702F71D826A7200AC5524 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				748703071D82AF6800AC5524 /* mainMsgView.h */,
+				748703081D82AF6800AC5524 /* mainMsgView.m */,
+				7487030D1D86A02F00AC5524 /* FilterView.h */,
+				7487030E1D86A02F00AC5524 /* FilterView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		748702FD1D82700900AC5524 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				748702FA1D826FEF00AC5524 /* RootMainViewController.h */,
+				748702FB1D826FEF00AC5524 /* RootMainViewController.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		748703101D87E01100AC5524 /* Fill */ = {
+			isa = PBXGroup;
+			children = (
+				740306411D9BB4E900594FB7 /* FillZeroViewController.h */,
+				740306421D9BB4E900594FB7 /* FillZeroViewController.m */,
+				748703111D87E08A00AC5524 /* FillFirstViewController.h */,
+				748703121D87E08A00AC5524 /* FillFirstViewController.m */,
+				748703141D87E8DD00AC5524 /* FillSecondViewController.h */,
+				748703151D87E8DD00AC5524 /* FillSecondViewController.m */,
+				7452C3961D9A495F001970F3 /* FillThirdViewController.h */,
+				7452C3971D9A495F001970F3 /* FillThirdViewController.m */,
+				7452C3991D9A49C8001970F3 /* FillForthViewController.h */,
+				7452C39A1D9A49C8001970F3 /* FillForthViewController.m */,
+			);
+			name = Fill;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +302,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 748702EE1D8263EC00AC5524 /* Build configuration list for PBXNativeTarget "FindAirPod" */;
 			buildPhases = (
+				7D0C5C9769F94170C3E862AD /* Check Pods Manifest.lock */,
 				748702D31D8263EC00AC5524 /* Sources */,
 				748702D41D8263EC00AC5524 /* Frameworks */,
 				748702D51D8263EC00AC5524 /* Resources */,
+				5DB97E40CA7FE88E24631A6D /* Embed Pods Frameworks */,
+				621D71C8FC6878CB1AA0E8BC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,11 +324,14 @@
 		748702CF1D8263EC00AC5524 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Baoy;
 				TargetAttributes = {
 					748702D61D8263EC00AC5524 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5SL47J4372;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -144,14 +366,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DB97E40CA7FE88E24631A6D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		621D71C8FC6878CB1AA0E8BC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0C5C9769F94170C3E862AD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		748702D31D8263EC00AC5524 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				748702E21D8263EC00AC5524 /* ViewController.m in Sources */,
 				748702DF1D8263EC00AC5524 /* AppDelegate.m in Sources */,
+				748703061D82A4EA00AC5524 /* BaoyAnnotation.m in Sources */,
+				7403064D1D9CE6AC00594FB7 /* UIViewController+HUDManager.m in Sources */,
+				748703131D87E08A00AC5524 /* FillFirstViewController.m in Sources */,
+				74DA35D01D9F6B51001FFDC3 /* EditInfoViewController.m in Sources */,
+				748703161D87E8DD00AC5524 /* FillSecondViewController.m in Sources */,
+				748473681D94DBEB00F5CD6C /* UIViewController+Login.m in Sources */,
+				748703031D82A06800AC5524 /* MapMainViewController.m in Sources */,
+				748473621D9116CB00F5CD6C /* BaoyNSURLRequest.m in Sources */,
+				748703191D87E95700AC5524 /* NSString+Instask.m in Sources */,
+				740306431D9BB4E900594FB7 /* FillZeroViewController.m in Sources */,
+				748702FC1D826FEF00AC5524 /* RootMainViewController.m in Sources */,
+				74DA35CD1D9E6DB6001FFDC3 /* EditViewController.m in Sources */,
+				7487030C1D82B11E00AC5524 /* MainModel.m in Sources */,
+				74FAC1E61DA6841500D5B7DF /* AboutUsViewController.m in Sources */,
 				748702DC1D8263EC00AC5524 /* main.m in Sources */,
+				748703001D82727C00AC5524 /* HomeViewController.m in Sources */,
+				7487031C1D87EE7A00AC5524 /* UIImage+instask.m in Sources */,
+				7487030F1D86A02F00AC5524 /* FilterView.m in Sources */,
+				748473651D94D98200F5CD6C /* UIViewController+FindAirPod.m in Sources */,
+				7452C3921D950381001970F3 /* LeftViewController.m in Sources */,
+				74FAC1E31DA672C100D5B7DF /* HTCopyableLabel.m in Sources */,
+				74FAC1E91DA6872200D5B7DF /* WebViewController.m in Sources */,
+				7452C3951D98CCCF001970F3 /* NewHomeViewController.m in Sources */,
+				7452C39B1D9A49C8001970F3 /* FillForthViewController.m in Sources */,
+				7452C3981D9A495F001970F3 /* FillThirdViewController.m in Sources */,
+				748703091D82AF6800AC5524 /* mainMsgView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +473,7 @@
 /* Begin XCBuildConfiguration section */
 		748702EC1D8263EC00AC5524 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 151CF18EFE1275B95C54B58F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -223,6 +518,7 @@
 		};
 		748702ED1D8263EC00AC5524 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB6C05BFC9CC95E4F8F006F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -261,23 +557,39 @@
 		};
 		748702EF1D8263EC00AC5524 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 151CF18EFE1275B95C54B58F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5SL47J4372;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FindAirPod/PrefixHeader.pch";
 				INFOPLIST_FILE = FindAirPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.muzibaoyu91.FindAirPod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.findairpod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5e8e591b-0678-4b85-84d4-516e01482860";
+				PROVISIONING_PROFILE_SPECIFIER = findAirPodDev;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		748702F01D8263EC00AC5524 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB6C05BFC9CC95E4F8F006F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 5SL47J4372;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FindAirPod/PrefixHeader.pch";
 				INFOPLIST_FILE = FindAirPod/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.muzibaoyu91.FindAirPod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.findairpod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6d91338c-daa1-43cf-8118-0098776a6e1a";
+				PROVISIONING_PROFILE_SPECIFIER = XunYinAPPSTORE;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +612,7 @@
 				748702F01D8263EC00AC5524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
