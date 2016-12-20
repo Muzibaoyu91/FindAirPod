@@ -36,6 +36,8 @@
 
 @property (nonatomic, strong) UITextView *textView;
 
+@property (nonatomic, assign) CGFloat nowY;
+
 @end
 
 @implementation EditInfoViewController
@@ -75,7 +77,30 @@
     
     [self loadContentView];
     
+    //增加监听，当键盘出现时收到消息
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(keyboardWillShow:)
+                                                 name:UIKeyboardWillShowNotification
+                                               object:nil];
 }
+
+- (void)keyboardWillShow:(NSNotification *)notification {
+    
+    //获取键盘的高度
+    NSDictionary *userInfo = [notification userInfo];
+    NSValue *value = [userInfo objectForKey:UIKeyboardFrameEndUserInfoKey];
+    CGRect keyboardRect = [value CGRectValue];
+    float keyBoardH = keyboardRect.size.height;
+    
+    if (kScreenH - 64 - self.nowY - keyBoardH < 10) {
+        
+        [UIView animateWithDuration:0.2 animations:^{
+            
+            self.scrollView.contentOffset = CGPointMake(0, 64 + self.nowY + keyBoardH + 20 - kScreenH);
+        }];
+    }
+}
+
 
 
 #pragma mark - UI
@@ -337,14 +362,7 @@
 #pragma mark - textFieldDelegate
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField{
     
-    CGFloat nowY = CGRectGetMaxY(textField.frame);
-    
-    if (nowY > kScreenH - 64 - 252) {
-        [UIView animateWithDuration:0.2 animations:^{
-            self.scrollView.contentOffset = CGPointMake(0, (nowY -(kScreenH -64 -252))+15);
-        }];
-    }
-    
+    self.nowY = CGRectGetMaxY(textField.frame);
     return YES;
 }
 
@@ -372,14 +390,7 @@
 
 #pragma mark - textViewDelegate
 - (BOOL)textViewShouldBeginEditing:(UITextView *)textView{
-    
-    CGFloat nowY = CGRectGetMaxY(textView.frame);
-    if (nowY > kScreenH - 64 - 252) {
-        
-        [UIView animateWithDuration:0.2 animations:^{
-            self.scrollView.contentOffset = CGPointMake(0, (nowY -(kScreenH -64 -252)+30));
-        }];
-    }
+    self.nowY = CGRectGetMaxY(textView.frame);
     return YES;
 }
 
